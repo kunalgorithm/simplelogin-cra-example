@@ -1,7 +1,5 @@
 # SimpleLogin Create React App Example
 
-# SimpleLogin NextJS example
-
 To get started, sign up at [SimpleLogin](https://simplelog.in/) and create a new project. Then, copy the generated API key.
 
 Rename `.env.example` to `.env` and set `REACT_APP_SIMPLELOGIN_KEY` to the API key for your project.
