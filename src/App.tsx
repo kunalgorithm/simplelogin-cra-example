@@ -1,10 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
 
 import SimpleLogin from "@simplelogin/client";
 const simple = new SimpleLogin(process.env.REACT_APP_SIMPLELOGIN_KEY!);
-// const simple = new SimpleLogin("8a80c993-1601-4970-9ffc-9983f1995f95");
 
 function App() {
   const { user, loading, logout } = simple.useUser();
@@ -24,8 +21,7 @@ function App() {
         <form
           onSubmit={async (e) => {
             e.preventDefault();
-            const res = await simple.loginOrSignup({ email });
-            console.log(res);
+            await simple.loginOrSignup({ email });
           }}
         >
           <input
