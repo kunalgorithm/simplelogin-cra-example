@@ -1,5 +1,11 @@
 # SimpleLogin Create React App Example
 
+NOTE: Simplelogin is currently in beta and is currently subject to breaking API changes. It is ready to use for the purposes of learning and side projects, but should not yet be used in mission-critical production environments.
+
+This projects is a complete app that demonstrates its usage. Your feedback is very much welcome.
+
+## Let's go
+
 To get started, sign up at [SimpleLogin](https://simplelog.in/) and create a new project. Then, copy the generated API key.
 
 Rename `.env.example` to `.env` and set `REACT_APP_SIMPLELOGIN_KEY` to the API key for your project.
