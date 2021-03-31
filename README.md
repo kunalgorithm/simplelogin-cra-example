@@ -51,10 +51,10 @@ This pulls from the environment variable you set above.
 When the user enters and submits the form, we call `loginOrSignup` as follows
 
 ```tsx
-   onSubmit={async (e) => {
-            e.preventDefault();
-            await simple.loginOrSignup({ email });
-          }}
+onSubmit={async (e) => {
+        e.preventDefault();
+        await simple.loginOrSignup({ email });
+    }}
 ```
 
 This also renders a modal indicating to the user that they should check their email inbox, created by the JSX element included in the render method above
