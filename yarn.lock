@@ -2143,10 +2143,10 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@simplelogin/client@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@simplelogin/client/-/client-1.0.4.tgz#5feecea8d93b3373282db5dae3e579f1f9ad0464"
-  integrity sha512-oXDRX3vhk7IPzjzgpebynhCsnQhRk2kkWYH0b3la4eggqLdEfqZpiMUYW5Sh+iHScWCVNnZp5ukpZqj/jSnZ1Q==
+"@simplelogin/client@^1.0.4-1":
+  version "1.0.4-1"
+  resolved "https://registry.yarnpkg.com/@simplelogin/client/-/client-1.0.4-1.tgz#70c4be7180f6866d2df616ec48f0ebfc89db66cf"
+  integrity sha512-ZiSBfKNvhtkGgpvmWvLgt80Clc1hXwCAWw3yNCmLAhhamwZuiVJnklX4D1/pw3Kvi/OdVy/U8EMTpR3riugugg==
   dependencies:
     "@chakra-ui/react" "^1.4.1"
     "@emotion/react" "^11"
