@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./App.css";
 import SimpleLogin from "@simplelogin/client";
 const simple = new SimpleLogin(process.env.REACT_APP_SIMPLELOGIN_KEY!);
 
@@ -25,6 +25,8 @@ function App() {
           }}
         >
           <input
+            type="email"
+            placeholder="Enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             style={{ border: "1px solid gray" }}

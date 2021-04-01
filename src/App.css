@@ -1,0 +1,13 @@
+input[type="email"] {
+  width: 300px;
+  padding: 8px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 4px 5px;
+  margin: 2px;
+}
