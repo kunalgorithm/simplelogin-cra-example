@@ -1,16 +1,16 @@
 # SimpleLogin Create React App Example
 
-NOTE: Simplelogin is currently in beta and is currently subject to breaking API changes. It is ready to use for the purposes of learning and side projects, but should not yet be used in mission-critical production environments.
+[SimpleLogin](https://simplelog.in) lets you add authentication to your app with just a couple lines of code. This project is a complete React app, bootstrapped with [Create React App](https://github.com/facebook/create-react-app), that demonstrates its usage. Your feedback is very much welcome.
 
-This projects is a complete app that demonstrates its usage. Your feedback is very much welcome.
+
+> NOTE: Simplelogin is currently in beta and is currently subject to breaking API changes. It is ready to use for the purposes of learning and side projects, but should not yet be used in mission-critical production environments.
+
+
 
 ## Let's go
 
-To get started, sign up at [SimpleLogin](https://simplelog.in/) and create a new project. Then, copy the generated API key.
+To get started, sign up at [SimpleLogin](https://simplelog.in/) and create a new project. Then, copy the generated API key, which we'll add to this project momentarily.
 
-Rename `.env.example` to `.env` and set `REACT_APP_SIMPLELOGIN_KEY` to the API key for your project.
-
-Create react app will read the value from the environment and associate your app with your newly created project, so you'll be able to see new users as they sign up in the _Users_ tab.
 
 ## Run the server
 
@@ -20,6 +20,10 @@ Clone the repository
 git clone https://github.com/kunalgorithm/simplelogin-cra-example.git
 cd simplelogin-cra-example
 ```
+
+Rename `.env.example` to `.env` and set `REACT_APP_SIMPLELOGIN_KEY` to the API key for your project.
+
+Create react app will read the value from the environment and associate your app with your newly created project, so you'll be able to see new users as they sign up in the _Users_ tab of your SimpleLogin [dashboard](https://simplelog.in/app).
 
 Install dependencies
 
@@ -35,9 +39,9 @@ yarn start
 
 ## Why is this cool?
 
-You can now deploy your app and sign up users, all activated with a minimal amount of code.
+You can now deploy your app and sign up users, all with a minimal amount of code.
 
-If you open up `App.tsx` you'll be faced with literally all the required code needed to enable this.
+If you open up `App.tsx` you'll be faced with all the required code needed to enable this.
 
 At the top, we import and initialize the SimpleLogin object
 
@@ -67,5 +71,5 @@ When the user clicks the link, it will direct them to a browser with the secret 
 
 ## Questions?
 
-- Read the [docs](https://simplelog.in/docs) for info
+- Read the [docs](https://simplelog.in/docs) for info (in progress) 
 - Contact me at [`me@kunal.sh`](mailto:me@kunal.sh)
