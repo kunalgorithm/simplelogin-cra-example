@@ -69,6 +69,16 @@ This also renders a modal indicating to the user that they should check their em
 
 When the user clicks the link, it will direct them to a browser with the secret link included in the email, verify their identity, and authenticate the original browser window on which they signed up.
 
+Now, you can use the `userUser` react hook to retrieve the authenticated user within any component.
+
+```tsx
+const { user, loading, logout } = simple.useUser();
+```
+
+Moreover, the `user` object contains properties for `email`, `emailVerified`, and a unique string for `uid` for usage to synchronize with a backend or database.
+
+SimpleLogin entirely handles the management of users, sessions and cookies so you can focus on the more unique features of your application.
+
 ## Questions?
 
 - Read the [docs](https://simplelog.in/docs) for info (in progress) 
