@@ -2,15 +2,11 @@
 
 [SimpleLogin](https://simplelog.in) lets you add authentication to your app with just a couple lines of code. This project is a complete React app, bootstrapped with [Create React App](https://github.com/facebook/create-react-app), that demonstrates its usage. Your feedback is very much welcome.
 
-
 > NOTE: Simplelogin is currently in beta and is currently subject to breaking API changes. It is ready to use for the purposes of learning and side projects, but should not yet be used in mission-critical production environments.
-
-
 
 ## Let's go
 
 To get started, sign up at [SimpleLogin](https://simplelog.in/) and create a new project. Then, copy the generated API key, which we'll add to this project momentarily.
-
 
 ## Run the server
 
@@ -72,7 +68,7 @@ When the user clicks the link, it will direct them to a browser with the secret 
 Now, you can use the `userUser` react hook to retrieve the authenticated user within any component.
 
 ```tsx
-const { user, loading, logout } = simple.useUser();
+const { user, logout } = simple.useUser();
 ```
 
 Moreover, the `user` object contains properties for `email`, `emailVerified`, and a unique string for `uid` for usage to synchronize with a backend or database.
@@ -81,5 +77,5 @@ SimpleLogin entirely handles the management of users, sessions and cookies so yo
 
 ## Questions?
 
-- Read the [docs](https://simplelog.in/docs) for info (in progress) 
+- Read the [docs](https://simplelog.in/docs) for info (in progress)
 - Contact me at [`me@kunal.sh`](mailto:me@kunal.sh)
